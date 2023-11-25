@@ -34,11 +34,11 @@ header {
 
 
 /* --------navigation--------- */
-nav {
+header nav {
     margin-right: 30px;
 }
 
-nav li {
+header nav li {
     list-style: none;
 
     display: inline-block;
@@ -46,7 +46,7 @@ nav li {
     margin-right: 20px;
 }
 
-nav a {
+header nav li a {
     text-decoration: none;
     color: white;
 }
