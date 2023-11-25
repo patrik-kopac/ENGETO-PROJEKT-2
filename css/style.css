@@ -1,0 +1,78 @@
+
+/* ---------------BASICS----------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* ---------------HEADER---------------- */
+header {
+    display: flex;
+    align-items: center;
+
+    background-color: #15304c;
+    height: 70px;
+}
+
+
+
+/* --------logo--------- */
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+
+/* --------navigation--------- */
+nav {
+    margin-right: 30px;
+}
+
+nav li {
+    list-style: none;
+
+    display: inline-block;
+
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* --------menu-icon--------- */
+.menu-icon {
+    display: none;
+
+    margin-right: 30px;
+}
+
+
+
+
+
+/* ---------------MAIN---------------- */
+
+
+/* --------welcome--------- */
+.welcome {
+    height: calc(100vh - 70px);
+
+    background-image: url(/img/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
