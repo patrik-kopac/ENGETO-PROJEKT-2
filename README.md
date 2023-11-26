@@ -1,0 +1,3 @@
+Povinný projekt (druhý z troch) v ENGETO frontend akadémií. Idem podľa zadania ENGETO lektorov, potom si to trochu poupravujem a dopĺňam podľa seba, nech to vypadá viac ako normálny web (doplnil som všetky sekcie pod .welcome sekciou, či hovery).
+
+Cieľ projektu je vytvoriť prvú reálnu JavaScript vec, čož bolo v tomto prípade jednoduché hamburger menu (už to bude len ťažšie). Web je inak tématicky tvorený podľa zadania na tému Harry Potter.
