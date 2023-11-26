@@ -1,5 +1,5 @@
 /* -------------0-600px------------ */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     header {
         position: relative;
     }
@@ -7,10 +7,11 @@
     header nav {
         position: absolute;
         top: 70px;
+        right: -30px;
 
         background-color: #15304c;
 
-        width: 100%;
+        width: 30%;
 
         display: none;
     }
@@ -19,8 +20,9 @@
         display: block;
 
         text-align: center;
+        font-size: 20px;
 
-        margin: 10px 0;
+        margin: 30px 0;
     }
 
     .menu-icon {
@@ -30,12 +32,26 @@
         color: white;
         font-size: 23px;
     }
+
+    footer {
+        padding: 40px 0;
+    }
+
+    footer div {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 25px;
+    }
 }
 
 
 /* -------------600+px------------ */
-@media (min-width: 600px) {
+@media (min-width: 901px) {
     header nav {
         display: block !important;
+    }
+
+    header nav li a:hover {
+       color: #699ed5;
     }
 }

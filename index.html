@@ -20,7 +20,7 @@
     <header>
 
         <!------------------logo---------------->
-        <div class="logo">
+        <div id="logo">
 
             <img src="/img/logo.png" alt="Logo webu Harryho Pottera.">
             <!-- <i class="fa-regular fa-circle-xmark"></i> -->
@@ -31,9 +31,11 @@
         <nav>
 
             <ul>
-                <li><a href="#">Domov</a></li>
-                <li><a href="#">O nás</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#logo">Domov</a></li>
+                <li><a href="#rockfort">História Rockfortu</a></li>
+                <li><a href="#harry-potter">O Harry Potterovi</a></li>
+                <li><a href="#funfacts">Zaujímavosti</a></li>
+                <li><a href="#footer">Kontakt</a></li>
             </ul>
 
         </nav>
@@ -50,11 +52,57 @@
     <!------------------MAIN------------------------>
     <main>
 
-        <section class="welcome">
+        <section class="welcome"></section>
 
+        <section id="rockfort">
+            <h2>
+                Krátka história Rockfortu
+            </h2>
+            <p>
+                Rokfortská stredná škola čarodejnícka, skrátene "Rokfort" (angl.: Hogwarts School of Witchcraft and Wizardry, skrátene "Hogwarts", česky: Škola čar a kouzel v Bradavicích, skrátene "Bradavice") je čarodejnícka škola z fantasy série Harry Potter, ktorá sa nachádza vo Spojenom kráľovstve, presnejšie v Škótsku. Bežní ľudia (muklovia) ju vidia ako ruiny hradu, pred ktorým je tabuľa: Nebezpečenstvo zosuvu, prosím nevstupovať. Je to jediná vzdelávacia inštitúcia pre čarodejníkov vo Veľkej Británii. Bola založená okolo roku 1000 štyrmi legendárnymi čarodejníkmi, ktorí si vytvorili vlastné fakulty (Chrabromil, Bifľomor, Bystrohlav, Slizolin): Richard Chrabromil (angl. Godric Gryffindor), Brigita Bifľomorová (Helga Hufflepuff), Brunhilda Bystrohlavová (Rowena Ravenclaw) a Salazar Slizolin (Salazar Slytherin).
+            </p>
+        </section>
+
+        <section id="harry-potter">
+            
+            <div class="harry-potter-container">
+
+                <h2>
+                    V skratke o Harry Potter ságe
+                </h2>
+                <p>
+                    Harry Potter je séria siedmich fantasy románov od britskej autorky J. K. Rowlingovej. Romány zachytávajú životy mladého čarodejníka Harryho Pottera a jeho priateľov Hermiony Grangerovej a Rona Weasleyho, ktorí sú všetci študentmi čarodejníckej školy v Rokforte. Oblúk hlavného príbehu sa týka Harryho boja proti Lordovi Voldemortovi, temnému čarodejníkovi, ktorý sa chce stať nesmrteľným, zvrhne riadiaci čarodejnícky orgán známy ako ministerstvo mágie a podrobí si všetkých čarodejníkov a muklov (nemagických ľudí).
+                </p>
+
+            </div>
+        </section>
+
+        <section class="harry-photo">
+            <img src="/img/harry-potter.png" alt="Animovaný Harry Potter so sovou Hedvigou.">
+        </section>
+
+        <section id="funfacts">
+            <h2>3 zaujímavosti o ságe, o ktorých ste nevedeli!</h2>
+            <ul>
+                <li>Ron Weasley, najlepší priateľ Harry Pottera, mal zomrieť v polke ságy, avšak J.K.Rowlingová sa napokon rozhodla nechať ho nažive (údajne aj kvôli Hermione).</li>
+                <li>Keďže herec Daniel Radcliffe sa počas natáčania filmov zabával s prútikmi a používal ich ako paličky na bubón, zlomil ich viac ako 80. Kvôli celej sérii Harryho Pottera bolo vyrobených pribilžne 500 prútikov pre všetkých hercov.</li>
+                <li>V spojených štátoch sa nachádza až 106 ľudí s menom po tomto slávnom čarodejníkovi.</li>
+            </ul>
         </section>
 
     </main>
+
+    <footer id="footer">
+        
+        <div>
+
+            <h3>Vytvoril PATRIK KOPÁČ</h3>
+            <a href="tel:+420722245216"><span class="contacts">tel:</span> 722 245 216</a>
+            <a href="mailto:kopacpatrik@email.cz"><span class="contacts">mail:</span> Kopacpatrik@email.cz</a>
+
+        </div>
+
+    </footer>
 
     <script src="/js/script.js"></script>
 </body>
